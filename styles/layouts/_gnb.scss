@@ -1,4 +1,5 @@
 .gnb {
+  $padding: 8px;
   position: relative;
   border-bottom: 1px solid $border;
 
@@ -19,8 +20,11 @@
 
   .logo {
     @include pos-center;
+
     a {
       display: block;
+      padding: $padding;
+      background-color: hotpink;
     }
 
     img {
