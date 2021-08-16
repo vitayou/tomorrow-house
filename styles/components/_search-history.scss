@@ -40,13 +40,14 @@
     }
 
     .delete-button {
-      @include flexbox(center);
+      @include flexbox;
       position: absolute;
       top: 6px;
       right: 0;
       width: $close-button-size;
       height: $close-button-size;
-      @include text-style(16, $tertiary);
+      font-size: 16px;
+      color: $tertiary;
 
       &:hover {
         color: $primary;
