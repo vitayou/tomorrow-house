@@ -1,0 +1,29 @@
+.order-form {
+  margin-bottom: 20px;
+  .order-inputs {
+    margin-bottom: 20px;
+    .select-group {
+      &:first-child {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .order-summary {
+    @include flexbox(between);
+    margin-bottom: 20px;
+  }
+
+  .button-group {
+    @include flexbox;
+
+    button {
+      width: 50%;
+      margin-right: 8px;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
