@@ -27,8 +27,9 @@
 
   &-title {
     @include text-style(13, $dark);
-    line-height: 16px;
+    @include line-clamp(2);
     font-weight: 400;
+    line-height: 16px;
   }
 
   &-price {
