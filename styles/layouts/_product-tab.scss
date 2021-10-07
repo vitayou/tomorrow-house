@@ -3,7 +3,7 @@
   top: $gnb-height-sm + $lnb-height-sm;
   z-index: $product-tab-level;
   width: 100%;
-  height: 40px;
+  height: $product-tab-height-sm;
   background-color: $white;
   border-bottom: 1px solid $border;
 
