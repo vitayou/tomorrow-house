@@ -39,8 +39,6 @@ function toggleOrderCtaBookmark() {
   }
 
   countSapn.innerHTML = newCount.toLocaleString()
-  //   console.log(newCount)
-
   this.classList.toggle('is-active')
 }
 
